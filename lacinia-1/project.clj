@@ -8,6 +8,6 @@
                  [org.clojure/core.async "0.4.474"]
                  [com.walmartlabs/lacinia "0.31.0"]
                  [com.walmartlabs/lacinia-pedestal "0.11.0"]]
-  :main ^:skip-aot lacinia-1.StockMarketAccess
+  :main ^:skip-aot lacinia-1.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

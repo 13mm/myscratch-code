@@ -1,4 +1,11 @@
 {
+ :objects {
+           :stockQuote {:description "Spot price of Stock"
+                     :fields {:ric {:type (non-null String)}
+                              :price {:type (non-null String)}
+                              :lastTraded {:type String}}}
+           }
+
  :queries
  {:hello
   {:type String
@@ -7,7 +14,11 @@
  :subscriptions
  {:ping
   {:type String
-   :stream :ping-response}}
+   :stream :ping-response}
 
- }
+  :watchStock {:type String
+               :description "Retrieve a single BoardGame by its unique id."
+               :stream :stock-quote}
+  }
+}
 
