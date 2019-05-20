@@ -41,7 +41,9 @@
 (defn watch-stock [context args source-stream]
    (let [listener-chan (chan)]
      (println args)
-     (ma/watch-stock :IBM listener-chan)
+     (println (-> args :ric keyword))
+     (println (-> args :ric keyword type))
+     (ma/watch-stock (-> args :ric keyword) listener-chan)
      (go-loop []
        (let [v (<! listener-chan)]
          (source-stream v)

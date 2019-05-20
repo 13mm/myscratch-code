@@ -16,8 +16,10 @@
   {:type String
    :stream :ping-response}
 
-  :watchStock {:type String
+  :watchStock {:type :stockQuote
                :description "Retrieve a single BoardGame by its unique id."
+               :args {:ric {:type String
+                           :description "ric code of a stock"}}
                :stream :stock-quote}
   }
 }
