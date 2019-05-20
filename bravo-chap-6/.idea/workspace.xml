@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f243145-e48c-493b-9d06-07ab3f9e75bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../haskell-hw/.idea/haskell-hw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../haskell-hw/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../haskell-hw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_core_async_0_4_474.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_core_cache_0_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_core_memoize_0_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_data_priority_map_0_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_tools_analyzer_0_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_tools_analyzer_jvm_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_clojure_tools_reader_1_0_0_beta4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/libraries/Leiningen__org_ow2_asm_asm_all_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pubsub/pubsub.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/bravo_chap_6/core_test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bravo_chap_6/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/bravo_chap_6/core_test.clj" />
+        <option value="$PROJECT_DIR$/src/bravo_chap_6/core.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="721" />
+    <option name="width" value="1208" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GoToKeyword.includeLibraries" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pubsub" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReplState" timestamp="1555772230375">{:repl-history {:ide [], :local [{:command &quot;(def x\n  \n  )&quot;, :offset 13, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;x&quot;, :offset 1, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(defn [a b]\n  (+ a b))&quot;, :offset 22, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(defn [x] x)&quot;, :offset 12, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(+ [1 2])&quot;, :offset 9, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(defn sum [&amp; args]\n  (+ apply args))&quot;, :offset 36, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(sum 1 2 4)&quot;, :offset 11, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(defn sum [&amp; args]\n  (reduce #(+ accu v) 0 args)\n  )&quot;, :offset 52, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(defn sum [&amp; args]\n  (reduce (fn [accu v] (+ accu v)) 0 args)\n  )&quot;, :offset 65, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(sum 1 2 3)&quot;, :offset 11, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(sum 1 2\n     )&quot;, :offset 15, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(Thread/Sleep 1000)&quot;, :offset 19, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(Thread/sleep 1000)&quot;, :offset 19, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(Thread/sleep 10000)  &quot;, :offset 22, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(println 4)&quot;, :offset 11, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;dereferencing the future&quot;, :offset 24, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(def d (delay (println \&quot;from delay\&quot;)))&quot;, :offset 38, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;d&quot;, :offset 1, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(def d (delay \n         (let [s1 \&quot;something\&quot;] \n           (println \&quot;from delay\&quot;) s1 )   ))&quot;, :offset 90, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;@d&quot;, :offset 2, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(doseq [x [-1 0 1]\n        y [1  2 3 6]]\n  (prn (* x y)))&quot;, :offset 57, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(doseq [x [-1 0 1]\n        y [1  2 3]]\n  (prn (* x y)))&quot;, :offset 55, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(def x 1)&quot;, :offset 9, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(let [[k v] (first {:a 1})]\n  (prn k)\n  (prn v)\n  )&quot;, :offset 51, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(let [[item &amp; items] [1 2 3 4 5]]\n  (prn item)\n  (prn items)\n  )&quot;, :offset 64, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(defn test-fn [[i &amp; is] ]\n  (println i)\n  (println is)\n  )&quot;, :offset 58, :ns &quot;bravo-chap-6.core&quot;} {:command &quot;(test-fn [1 2 3])&quot;, :offset 17, :ns &quot;bravo-chap-6.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL for bravo-chap-6">
+    <configuration name="REPL for bravo-chap-6" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="bravo-chap-6" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="c-a" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="bravo-chap-6" />
+      <setting name="path" value="" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f243145-e48c-493b-9d06-07ab3f9e75bd" name="Default Changelist" comment="" />
+      <created>1555129168270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555129168270</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="577" y="0" width="966" height="831" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25496688" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16005665" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" visible="true" weight="0.32618025" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" sideWeight="0.49858356" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="REPL" order="8" sideWeight="0.50421584" side_tool="true" visible="true" weight="0.6467991" />
+      <window_info anchor="right" id="Leiningen" order="9" sideWeight="0.49578413" weight="0.39328858" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bravo_chap_6/core.clj</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bravo_chap_6/core.clj</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bravo_chap_6/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bravo_chap_6/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

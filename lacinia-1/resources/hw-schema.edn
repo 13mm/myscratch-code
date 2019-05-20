@@ -1,0 +1,13 @@
+{
+ :queries
+ {:hello
+  {:type String
+   :resolve :resolve-hello}}
+
+ :subscriptions
+ {:ping
+  {:type String
+   :stream :ping-response}}
+
+ }
+
