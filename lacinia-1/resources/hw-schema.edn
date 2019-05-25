@@ -1,26 +1,58 @@
 {
- :objects {
-           :stockQuote {:description "Spot price of Stock"
-                     :fields {:ric {:type (non-null String)}
-                              :price {:type (non-null String)}
-                              :lastTraded {:type String}}}
-           }
+ :interfaces {
+              :StockEntity {:description "entity representing an stock main field"
+                            :fields      {:ric {:type        (non-null String)
+                                                :description "ric code for an stock"}}}}
+
+ :objects    {
+
+              :stockQuote     {:description "Spot price of Stock"
+                               :fields      {:ric        {:type (non-null String)}
+                                             :price      {:type (non-null String)}
+                                             :lastTraded {:type String}}}
+
+              :companyProfile {:description "Company Profile info"
+                               :implements  [:StockEntity]
+                               :fields      {:ric  {:type (non-null String)}
+                                             :name {:type (non-null String)}
+                                             :description {:type String}
+                                             :boardMembers {:type (list String)}}}
+              :stockDetail {:description "Stock Details"
+                            :implements [:StockEntity]
+                            :fields {:ric {:type (non-null String)}
+                                     :name {:type (non-null String)}
+                                     :description {:type String}
+                                     :company {:type :companyProfile
+                                               :resolve :get-company-info}
+                                     }
+
+                            }
+              }
 
  :queries
- {:hello
-  {:type String
-   :resolve :resolve-hello}}
+             {:hello
+              {:type    String
+               :resolve :resolve-hello}
+              :GetStockDetail
+              {:resolve :get-stock-detail
+               :type :stockDetail
+               :args {:ric {:type String}}}
+              :BulkStockDetails
+              {:resolve :resolve-rics
+               :type (list :stockDetail)
+               :args {:rics {:type (list String)}}}
+ }
 
  :subscriptions
- {:ping
-  {:type String
-   :stream :ping-response}
+             {:ping
+                          {:type   String
+                           :stream :ping-response}
 
-  :watchStock {:type :stockQuote
-               :description "Retrieve a single BoardGame by its unique id."
-               :args {:ric {:type String
-                           :description "ric code of a stock"}}
-               :stream :stock-quote}
-  }
-}
+              :watchStock {:type        :stockQuote
+                           :description "Retrieve a single BoardGame by its unique id."
+                           :args        {:ric {:type        String
+                                               :description "ric code of a stock"}}
+                           :stream      :stock-quote}
+              }
+ }
 

@@ -51,8 +51,42 @@
        (recur)
        )
      )
-  #(println "closing connection")
-   )
+  #(println "closing connection"))
+
+
+
+(defn get-stock-detail-from-db [ric]
+  {:ric ric :name (str "stock name:" ric)  :description (str "description for : " ric)})
+
+(defn get-company-detail-from-db [ric]
+  {:ric ric :name (str "company: " ric) :boardMembers ["John" "Dan" "Ben"] :description (str "desc for :" ric) }  )
+
+(defn get-stock-detail [context arguments value]
+  (println "get-stock-detail args: " arguments)
+  (println "get-stock-detail value: " value)
+  (let [{:keys [ric]} value
+        {ric :ric , :or {ric ric} } arguments]
+    (get-stock-detail-from-db ric)))
+
+(defn get-company-info [context arguments value]
+  (println "get-company-info args: " arguments)
+  (println "get-company-info value: " value)
+  (let [{:keys [ric]} value
+        {ric :ric , :or {ric ric} } arguments]
+  (get-company-detail-from-db ric)
+  ))
+
+
+(defn resolve-rics [context arguments value]
+  (println "resolve-rics args: " arguments)
+  (println "resolve-rics value: " value)
+  (map #(get-stock-detail-from-db %) (:rics arguments))
+)
+
+(defn resolve-rics-ex [context arguments value]
+  (println "resolve-rics args: " arguments)
+  (println "resolve-rics value: " value)
+  (map #(hash-map :ric %) (:rics arguments)) )
 
 (defn ^:private hello-schema
   []
@@ -60,7 +94,10 @@
       io/resource
       slurp
       edn/read-string
-      (util/attach-resolvers {:resolve-hello resolve-hello})
+      (util/attach-resolvers {:resolve-hello resolve-hello
+                              :get-stock-detail get-stock-detail
+                              :get-company-info get-company-info
+                              :resolve-rics resolve-rics})
       (util/attach-streamers {:ping-response log-message-streamer
                               :stock-quote watch-stock})
       schema/compile))

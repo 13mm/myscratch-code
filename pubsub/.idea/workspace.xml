@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa1e0978-5d8d-4234-943d-f7888ad84b61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../lacinia-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lacinia-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lacinia-1/resources/hw-schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/../lacinia-1/resources/hw-schema.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lacinia-1/src/lacinia_1/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../lacinia-1/src/lacinia_1/core.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,6 +147,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07421875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
