@@ -4,6 +4,17 @@
                             :fields      {:ric {:type        (non-null String)
                                                 :description "ric code for an stock"}}}}
 
+ :scalars
+             {:StockPrice {:parse :dollar->number
+                           :serialize :number->dollar}
+              }
+
+ :input-objects {
+                :stock     {:description "Spot price of Stock"
+                                 :fields      {:ric        {:type (non-null String)}
+                                               :price      {:type (non-null Int)}
+                                               :lastTraded {:type String}}}
+                }
  :objects    {
 
               :stockQuote     {:description "Spot price of Stock"
@@ -29,14 +40,30 @@
                             }
               }
 
+
+
+ :mutations
+             {:AddNewStock
+              {:resolve :add-new-stock
+               :type :stockDetail
+               :args {:stock {:type :stock}}}
+
+            }
+
  :queries
              {:hello
               {:type    String
                :resolve :resolve-hello}
+
+              :getAllStockQuotes
+               {:type    (list :stockQuote)
+                :resolve :get-all-stock-quotes}
+
               :GetStockDetail
               {:resolve :get-stock-detail
                :type :stockDetail
                :args {:ric {:type String}}}
+
               :BulkStockDetails
               {:resolve :resolve-rics
                :type (list :stockDetail)
@@ -49,7 +76,7 @@
                            :stream :ping-response}
 
               :watchStock {:type        :stockQuote
-                           :description "Retrieve a single BoardGame by its unique id."
+                           :description "Listens to the stocks"
                            :args        {:ric {:type        String
                                                :description "ric code of a stock"}}
                            :stream      :stock-quote}

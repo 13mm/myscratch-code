@@ -4,6 +4,7 @@
     [clojure.java.io :as io]
     [com.walmartlabs.lacinia.pedestal :refer [service-map]]
     [com.walmartlabs.lacinia.schema :as schema]
+    [clojure.spec.alpha :as s]
     [com.walmartlabs.lacinia.util :as util]
     [clojure.core.async :as async :refer [chan <! >! timeout
                                                     pub sub unsub unsub-all go-loop]]
@@ -83,10 +84,28 @@
   (map #(get-stock-detail-from-db %) (:rics arguments))
 )
 
-(defn resolve-rics-ex [context arguments value]
-  (println "resolve-rics args: " arguments)
-  (println "resolve-rics value: " value)
-  (map #(hash-map :ric %) (:rics arguments)) )
+(defn add-new-stock [context arguments value]
+  (let [{:keys [ric price lastTraded]} (:stock arguments)]
+    (ma/update-spot (keyword ric) price)
+    (get-stock-detail-from-db ric)))
+
+(defn get-all-stock-quotes [context args value]
+  (println (ma/get-all-quotes))
+  (let [q-s (ma/get-all-quotes)
+        quotes (map #(hash-map :ric (-> % key name) :price (-> % val))  q-s)]
+    (println quotes)
+    quotes
+    ))
+
+(def dollar->number
+  (s/conformer
+    (fn [s]
+      (Integer. (re-find  #"\d+" s )))))
+
+(def number->dollar
+  (s/conformer
+    (fn [n]
+      (str n "USD"))))
 
 (defn ^:private hello-schema
   []
@@ -97,7 +116,11 @@
       (util/attach-resolvers {:resolve-hello resolve-hello
                               :get-stock-detail get-stock-detail
                               :get-company-info get-company-info
-                              :resolve-rics resolve-rics})
+                              :resolve-rics resolve-rics
+                              :add-new-stock add-new-stock
+                              :get-all-stock-quotes get-all-stock-quotes})
+      (util/attach-scalar-transformers {:dollar->number dollar->number
+                                        :number->dollar number->dollar})
       (util/attach-streamers {:ping-response log-message-streamer
                               :stock-quote watch-stock})
       schema/compile))

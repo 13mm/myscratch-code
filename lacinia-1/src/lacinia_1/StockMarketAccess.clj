@@ -11,6 +11,10 @@
 
 (def  stocks (atom   {:IBM 132.2 :MSFT 128.1 :AMZN 1896 :GOOG 1168} ))
 
+(defn get-all-quotes []
+  @stocks
+  )
+
 (defn stock-quote [ric]
   (ric @stocks)
 )
